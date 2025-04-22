@@ -1,9 +1,6 @@
 ## Improving Rectal Tumor Segmentation with Anomaly Fusion Derived from Anatomical Inpainting: A Multicenter Study
-You can find the article of this paper [here](https://www.medrxiv.org/content/10.1101/2024.10.15.24315517v1)
-The code is built on top of https://github.com/DL4mHealth/Medformer
+You can find the article [here](https://www.medrxiv.org/content/10.1101/2024.10.15.24315517v1)
 This repo is a PyTorch-based framework for rectal tumor and rectal structures (rectum and mesorectum) segmentation, whose goal is to provide a comprehensive  comparison of various deep learning models. It provides fair evaluation and comparison of CNNs and Transformers on rectal cancer MRI (T2WI). 
-
-Also, many thanks to https://github.com/MIC-DKFZ/nnUNet and https://github.com/fiy2W/mri_seq2seq
 
 ## Data and Model Weights
 We publish the rectal structure including rectum and mesorectum segmenting model [here](https://drive.google.com/drive/folders/1ontHBRMZia00npnt5YVQoDFzeW92MyOd?usp=drive_link). The model was trained on our own rectal dataset (T2WI)
@@ -15,7 +12,7 @@ Also, the rectum and mesorectum masks of 100 T2WI scans of PI-CAI dataset can be
 ### Features
 - Cover the whole process of model design, including dataset processing, model definition, model configuration, training and evaluation.
 - Provide SOTA models as baseline for comparison for rectal tumor segmentation. Model definition, training and evaluation code are simple with no complex code encapsulation.
-- Provide models, losses, metrics, augmentation and etc. for 2D, 3D data, multiple modalities and multiple tasks.
+- Provide models, losses, metrics, augmentation and etc. for 2D, 3D data.
 
 
 
@@ -78,6 +75,9 @@ Example of using DDP and AMP:
 
 We have not fully benchmark if AMP can speed up training, but AMP can reduce the GPU memory consumption a lot.
 
+### Acknowledgement
+The code is built on top of https://github.com/DL4mHealth/Medformer
+Also, many thanks to https://github.com/MIC-DKFZ/nnUNet and https://github.com/fiy2W/mri_seq2seq
 
 
 ### Citation
