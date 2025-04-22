@@ -81,6 +81,8 @@ We have not fully benchmark if AMP can speed up training, but AMP can reduce the
 The code is built on top of https://github.com/DL4mHealth/Medformer
 Also, many thanks to https://github.com/MIC-DKFZ/nnUNet and https://github.com/fiy2W/mri_seq2seq
 
+### Questions
+If you have any questions, please raise an issue.
 
 ### Citation
 If you find this repo helps or if you are using our model or dataset, please kindly cite our paper, thanks!
