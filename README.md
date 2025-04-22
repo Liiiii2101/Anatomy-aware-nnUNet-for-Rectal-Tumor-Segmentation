@@ -1,13 +1,14 @@
 ## Improving Rectal Tumor Segmentation with Anomaly Fusion Derived from Anatomical Inpainting: A Multicenter Study
+You can find the article of this paper [here](https://www.medrxiv.org/content/10.1101/2024.10.15.24315517v1)
 The code is built on top of https://github.com/DL4mHealth/Medformer
 This repo is a PyTorch-based framework for rectal tumor and rectal structures (rectum and mesorectum) segmentation, whose goal is to provide a comprehensive  comparison of various deep learning models. It provides fair evaluation and comparison of CNNs and Transformers on rectal cancer MRI (T2WI). 
 
 Also, many thanks to https://github.com/MIC-DKFZ/nnUNet and https://github.com/fiy2W/mri_seq2seq
 
 ## Data and Model Weights
-We publish the rectal structure including rectum and mesorectum segmenting model [here](https://drive.google.com/drive/folders/1ontHBRMZia00npnt5YVQoDFzeW92MyOd?usp=drive_link)
+We publish the rectal structure including rectum and mesorectum segmenting model [here](https://drive.google.com/drive/folders/1ontHBRMZia00npnt5YVQoDFzeW92MyOd?usp=drive_link). The model was trained on our own rectal dataset (T2WI)
 
-Also, the rectum and mesorectum masks of 100 T2WI scans of PI-CAI dataset can be found [here](https://drive.google.com/drive/folders/1dbKnbT8pQxC3fBrAGKWnlV_argsa3Ysf?usp=drive_link)
+Also, the rectum and mesorectum masks of 100 T2WI scans of PI-CAI dataset can be found [here](https://drive.google.com/drive/folders/1dbKnbT8pQxC3fBrAGKWnlV_argsa3Ysf?usp=drive_link). They were annotated by a radiologist with more than 6-year experience.
 
 
 
@@ -28,6 +29,7 @@ Also, the rectum and mesorectum masks of 100 T2WI scans of PI-CAI dataset can be
 - [UNETR](https://arxiv.org/abs/2103.10504)
 - [nnFormer](https://arxiv.org/abs/2109.03201)
 - [SwinUNETR](https://arxiv.org/abs/2201.01266)
+
 
 
 
