@@ -1,5 +1,5 @@
 ## Improving Rectal Tumor Segmentation with Anomaly Fusion Derived from Anatomical Inpainting: A Multicenter Study
-You can find the article [here](https://www.medrxiv.org/content/10.1101/2024.10.15.24315517v1)
+You can find the article [here](https://www.medrxiv.org/content/10.1101/2024.10.15.24315517v1).
 
 
 This repo is a PyTorch-based framework for rectal tumor and rectal structures (rectum and mesorectum) segmentation, whose goal is to provide a comprehensive  comparison of various deep learning models. It provides fair evaluation and comparison of CNNs and Transformers on rectal cancer MRI (T2WI). 
