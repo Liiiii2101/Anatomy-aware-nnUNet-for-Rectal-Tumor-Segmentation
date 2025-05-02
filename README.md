@@ -5,7 +5,7 @@ You can find the article [here](https://www.medrxiv.org/content/10.1101/2024.10.
 This repo is a PyTorch-based framework for rectal tumor and rectal structures (rectum and mesorectum) segmentation, whose goal is to provide a comprehensive  comparison of various deep learning models. It provides fair evaluation and comparison of CNNs and Transformers on rectal cancer MRI (T2WI). 
 
 ## Data and Model Weights
-We publish the rectal structure including rectum and mesorectum segmenting model [here](https://drive.google.com/drive/folders/1ontHBRMZia00npnt5YVQoDFzeW92MyOd?usp=drive_link). The model was trained on our own rectal dataset (T2WI)
+We publish the rectal structure including rectum and mesorectum segmenting model [here](https://drive.google.com/drive/folders/1ontHBRMZia00npnt5YVQoDFzeW92MyOd?usp=drive_link). The model was trained on our own rectal dataset (T2WI) and this is the model used in our manuscript.
 
 Also, the rectum and mesorectum masks of 100 T2WI scans of PI-CAI dataset can be found [here](https://drive.google.com/drive/folders/1dbKnbT8pQxC3fBrAGKWnlV_argsa3Ysf?usp=drive_link). They were annotated by a radiologist with more than 6-year experience.
 
