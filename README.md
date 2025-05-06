@@ -9,6 +9,7 @@ We publish the rectal structure including rectum and mesorectum segmenting model
 
 Also, the rectum and mesorectum masks of 100 T2WI scans of PI-CAI dataset can be found [here](https://drive.google.com/drive/folders/1dbKnbT8pQxC3fBrAGKWnlV_argsa3Ysf?usp=drive_link). They were annotated by a radiologist with more than 6-year experience.
 
+Addtionally, we trained the rectum and mesoretum nnUNet models with multicenter in-house dataset and models can be found [here](https://drive.google.com/drive/folders/1eRPOH2E_GNzJZpWssttrKDNiCP7Xrzq2?usp=drive_link)
 
 
 ### Features
