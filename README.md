@@ -88,13 +88,15 @@ If you have any questions, please raise an issue.
 ### Citation
 If you find this repo helps or if you are using our model or dataset, please kindly cite our paper, thanks!
 ```
-@@article{cai2024improving,
-  title={Improving Rectal Tumor Segmentation with Anomaly Fusion Derived from Anatomical Inpainting: A Multicenter Study},
+@article{cai2026improving,
+  title={Improving rectal tumor segmentation with anomaly fusion derived from anatomical inpainting: a multicenter study},
   author={Cai, Lishan and Abdelatty, Mohamed A and Han, Luyi and Lambregts, Doenja MJ and van Griethuysen, Joost and Pooch, Eduardo and Beets-Tan, Regina GH and Benson, Sean and Brunekreef, Joren and Teuwen, Jonas},
-  journal={medRxiv},
-  pages={2024--10},
-  year={2024},
-  publisher={Cold Spring Harbor Laboratory Press}
+  journal={Scientific Reports},
+  volume={16},
+  number={1},
+  pages={1545},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
 }
 
 
