@@ -86,7 +86,7 @@ Also, many thanks to https://github.com/MIC-DKFZ/nnUNet and https://github.com/f
 If you have any questions, please raise an issue.
 
 ### Citation
-If you find this repo helps or if you are using our model or dataset, please kindly cite our paper, thanks!
+If you find this repo helps or if you are using our model or dataset, please kindly cite our [paper](https://www.nature.com/articles/s41598-025-14265-9), thanks!
 ```
 @article{cai2026improving,
   title={Improving rectal tumor segmentation with anomaly fusion derived from anatomical inpainting: a multicenter study},
